@@ -1,2 +1,62 @@
-node_modules
+# ==========================================
+# 📦 Dependencies (Root, Server, and Client)
+# ==========================================
+node_modules/
+jspm_packages/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# ==========================================
+# 🔒 Environment Variables & Secrets
+# ==========================================
+# Never commit your MongoDB URI, JWT secrets, or API keys!
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+config/config.env
+
+# ==========================================
+# 🚀 Production / Build Outputs
+# ==========================================
+# React / Frontend build folder
+dist/
+build/
+out/
+
+# Backend compiled code (if using TypeScript)
+lib/
+dist-server/
+
+# ==========================================
+# 📊 Logs and Diagnostics
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# ==========================================
+# 🛠️ IDEs, Editors & OS Files
+# ==========================================
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
