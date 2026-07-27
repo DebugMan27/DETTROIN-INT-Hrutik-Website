@@ -9,7 +9,7 @@
 | **Email Address**  | hrutikwakale@27gmail.com     |
 | **GitHub Username**| DebugMan27                   |
 | **Selected Website** | https://www.vasantvalley.org/ |
-| **Live Demo Link** |  |
+| **Live Demo Link** | https://dettroin-int-hrutik-website.vercel.app/ |
 
 ## Technologies Used
 
